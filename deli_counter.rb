@@ -13,5 +13,5 @@ end
 
 def take_a_number(new, name)
   new.push name
-  puts
+  puts "Welcome, #{name}. You are number #{new.index(name) + 1} in line."
 end
