@@ -12,4 +12,6 @@ phrase = "The line is currently:"
 end
 
 def take_a_number(new, name)
+  new.push name
+  puts
 end
