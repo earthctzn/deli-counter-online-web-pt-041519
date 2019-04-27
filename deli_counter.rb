@@ -19,9 +19,9 @@ end
 def now_serving(custy)
   if custy.empty? == true 
     puts "There is nobody waiting to be served!"
-  end
+    end
     puts "Currently serving #{custy.first}."
-  custy.shift
+    custy.shift
 end
   
   
